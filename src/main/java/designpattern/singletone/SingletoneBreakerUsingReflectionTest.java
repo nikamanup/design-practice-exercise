@@ -3,7 +3,7 @@ package designpattern.singletone;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
-public class SingletoneBreakerTest {
+public class SingletoneBreakerUsingReflectionTest {
 
     public static void main(String[] args) {
 

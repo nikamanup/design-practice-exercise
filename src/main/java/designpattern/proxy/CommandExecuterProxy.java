@@ -1,6 +1,5 @@
 package designpattern.proxy;
 
-import java.io.IOException;
 
 public class CommandExecuterProxy implements CommandExecuter {
     private boolean isAdmin;

@@ -1,6 +1,6 @@
 package designpattern.proxy;
 
-import java.io.IOException;
+
 
 public interface CommandExecuter {
 
