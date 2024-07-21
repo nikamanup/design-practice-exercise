@@ -1,4 +1,4 @@
-package designpattern.Bridge;
+package designpattern.bridge;
 
 public abstract class Vehicle {
     Transmission transmission;

@@ -1,4 +1,4 @@
-package designpattern.Bridge;
+package designpattern.bridge;
 
 public class Truck extends Vehicle{
 
