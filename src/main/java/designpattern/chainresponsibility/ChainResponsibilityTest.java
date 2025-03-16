@@ -17,8 +17,9 @@ public class ChainResponsibilityTest {
         while(true){
             int amount=0;
             System.out.println("Enter the amount to dispense");
-            Scanner input=new Scanner(System.in);
-            amount=input.nextInt();
+            try (Scanner input = new Scanner(System.in)) {
+                amount=input.nextInt();
+            }
             if (amount%10!=0){
                 System.out.println("Amount should be multiple of 10");
                 return;

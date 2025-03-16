@@ -11,6 +11,7 @@ public class SingletoneBreakerUsingReflectionTest {
         EagerInitializationSingletone instanceOne = EagerInitializationSingletone.getInstance();
         EagerInitializationSingletone instanceTwo = null;
 
+        @SuppressWarnings("rawtypes")
         Constructor[] constructors = EagerInitializationSingletone.class.getDeclaredConstructors();
         for (Constructor constructor : constructors) {
             constructor.setAccessible(true);
